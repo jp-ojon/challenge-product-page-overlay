@@ -29,8 +29,8 @@ Jon Paulo Ojon
 
 ## Running Tests
 Use the following commands in any terminal or cmd line to run tests in different browsers:
-1. npm run test:local       : run all tests using the localhost environment
-2. npm run test:network     : run all tests using the network environment
+1. npm run test:local       : run all tests using the localhost environment, for local test run the main project should be compiled and run first via command "npm run serve"
+2. npm run test:network     : run all tests using the network environment, for network env test run the main project should be compiled and run first via command "npm run serve"
 3. npm run test:production  : run all tests using the production environment
 
 ## Configuration
