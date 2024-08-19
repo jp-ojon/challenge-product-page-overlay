@@ -1,0 +1,22 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "cross-env ENVIRONMENT=local npx playwright test",
+    "test:network": "cross-env ENVIRONMENT=network npx playwright test",
+    "test:production": "cross-env ENVIRONMENT=production npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.4.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

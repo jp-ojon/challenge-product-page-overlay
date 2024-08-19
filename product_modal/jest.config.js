@@ -12,4 +12,5 @@ module.exports = {
     "^.+\\.vue$": "@vue/vue3-jest",
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
+  testPathIgnorePatterns: ['/node_modules/', '/playwright-tests/']
 };

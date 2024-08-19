@@ -1,0 +1,49 @@
+{
+    "Color": "NAVY",
+    "NumberOfImages": 2,
+    "ProductName": "T-shirt with an embroidered logo",
+    "Value": 16.99,
+    "Currency": "EUR",
+    "SrcsColors": [
+        "WHITE",
+        "BORDEAUX",
+        "NAVY",
+        "BLACK"
+    ],
+    "Sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+    ],
+    "Details": [
+        "Texture: textured pattern",
+        "Collar: Kent collar",
+        "Sleeve: with turn-ups",
+        "Pockets: breast pocket",
+        "EAN: 406316254075",
+        "Article Number: 13.005.22.2253.62A4.3XL"
+    ],
+    "Fit": [
+        "Fit: Regular Fit",
+        "Back length: bei Größe M ca. 75 cm"
+    ],
+    "Material": [
+        "Material Composition",
+        "Fabric: chambray",
+        "Quality: lightweight",
+        "99% Cotton, 1% Elastane",
+        "Care Instructions",
+        "Machine wash 30°",
+        "Do not chlore",
+        "Tumble with reduced thermal pressure",
+        "No dry cleaning",
+        "Handwarm ironing"
+    ],
+    "Sustainability": [
+        "WE CARE: Items with other sustainable properties that go beyond our minimum standards are marked with the WE CARE label.",
+        "CERTIFIED SUSTAINABLE FIBRE",
+        "When it comes to certified sustainable fibres, we're committed to using natural fibres from renewable sources. The raw materials are cultivated via resource-saving methods. This product supports economically, ecologically and socially sustainable cotton farming. The sourcing of sustainable cotton follows the principle of mass balance. You can find more information here."
+    ]
+}
