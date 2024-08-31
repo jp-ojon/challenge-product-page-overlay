@@ -19,8 +19,8 @@ test.describe('Product Page Tests', () => {
 
     test.beforeEach(async ({ page }) => {
         //Step 1: Navigate to the URL, depends on environment.
-        await page.goto('http://localhost:8080/')
-        //await page.goto(baseURL)
+        //await page.goto('http://localhost:8080/')
+        await page.goto(baseURL)
         await page.waitForLoadState('load')
     })
 
