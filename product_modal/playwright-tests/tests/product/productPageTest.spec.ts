@@ -2,7 +2,7 @@ import { test, expect, Locator } from '@playwright/test'
 import { ProductPageObject } from '../../page-objects/product/productPageObject'
 import { baseURL } from '../../playwright.config'
 import { ColorChecker, SizeChecker, areMapsNotEqualChecker, getAvailableSizes } from '../../utilities/GeneralUtilities'
-import { readJSONTestData } from '../../utilities/Reader';
+import { readJSONTestData } from '../../utilities/Reader'
 
 test.describe('Product Page Tests', () => {
 
@@ -151,7 +151,6 @@ test.describe('Product Page Tests', () => {
             const foundValue = allTextContentsSustainability.some(text => text.includes(expectedValue))
             expect(foundValue).toBe(true)  // Assert that the expected value exists.
         })
-        await page.waitForTimeout(10000)
     })
 
     test('Test Case 2: Click on a different color changes the slideshow images as well as the availabilities of the sizes', async ({ page }) => {   
